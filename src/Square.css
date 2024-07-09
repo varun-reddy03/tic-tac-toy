@@ -1,0 +1,81 @@
+/* Square.css */
+
+.square {
+    background: #fff;
+    border: 2px solid #999;
+    border-radius: 50%;  /* Make the squares circular */
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .square:focus {
+    outline: none;
+    border: 2px solid #00ff00;  /* Green border when focused */
+  }
+  
+  .square:hover {
+    background-color: #f0f0f0;  /* Slightly darker background on hover */
+  }
+  
+  .board-row {
+    clear: both;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .game-info {
+    margin-top: 20px;
+  }
+  
+  .reset-button {
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reset-button:hover {
+    background-color: #e64a19;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .game-board {
+    background-color: #000;  /* Black background for the game board */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .game-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

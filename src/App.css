@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.reset {
+  margin-top: 20px;
+}
